@@ -9,6 +9,8 @@ disable =
 	W0719, # broad-exception-raised
       C0305, #trailing-newlines
       C0303, #trailing-whitespace
+      E0401,  #import-error
+      E0611, #no-name-in-module
 
 # Analyse import fallback blocks. This can be used to support both Python 2 and
 # 3 compatible code, which means that the block might have code that exists

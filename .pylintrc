@@ -1,7 +1,14 @@
 [MAIN]
-disable=
-      C0114, #missing-module-docstring
-      C0116, #missing-function-docstring
+disable = 
+      C0304, # missing-final-newline
+      C0114, # missing-module-docstring
+      C0115, # Missing-class-docstring
+      C0116, # missing-function-docstring
+      W0703, # Catching too general exception Exception
+      R0903, # too-few-public-methods
+	W0719, # broad-exception-raised
+      C0305, #trailing-newlines
+      C0303, #trailing-whitespace
 
 # Analyse import fallback blocks. This can be used to support both Python 2 and
 # 3 compatible code, which means that the block might have code that exists

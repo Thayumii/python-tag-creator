@@ -12,6 +12,7 @@ disable =
       E0401, #import-error
       E0611, #no-name-in-module
       W0621, #redefined-outer-name
+      E1123, #unexpected-keyword-arg
 
 # Analyse import fallback blocks. This can be used to support both Python 2 and
 # 3 compatible code, which means that the block might have code that exists
